@@ -1,11 +1,11 @@
 import Foundation
 
 public struct LocalClient: Codable {
-    var hostName: String
-    var userName: String
-    var osType: String
-    var osVersion: String
-    var kernelType: String
-    var kernelVersion: String
-    var state: String
+    public var hostName: String
+    public var userName: String
+    public var osType: String
+    public var osVersion: String
+    public var kernelType: String
+    public var kernelVersion: String
+    public var state: String
 }
