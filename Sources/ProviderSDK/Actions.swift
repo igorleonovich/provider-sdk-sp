@@ -6,8 +6,8 @@ public enum ClientToServerActionType: String {
 }
 
 public struct ClientToServerAction: Codable {
-    var type: String
-    var data: Data
+    public var type: String
+    public var data: Data
 }
 //struct ServerToClientAction {
 //    var type: ServerToClientActionType
