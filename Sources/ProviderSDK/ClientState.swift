@@ -1,6 +1,6 @@
 import Foundation
 
-enum ClientState: String {
+public enum ClientState: String {
     case unknown
     case ready
     case progress

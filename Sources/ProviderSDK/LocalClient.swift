@@ -1,6 +1,6 @@
 import Foundation
 
-struct LocalClient: Codable {
+public struct LocalClient: Codable {
     var hostName: String
     var userName: String
     var osType: String

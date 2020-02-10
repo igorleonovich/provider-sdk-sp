@@ -1,11 +1,11 @@
 import Foundation
 
-enum ClientToServerActionType: String {
+public enum ClientToServerActionType: String {
     case fullClientUpdate
     case stateUpdate
 }
 
-struct ClientToServerAction: Codable {
+public struct ClientToServerAction: Codable {
     var type: String
     var data: Data
 }
