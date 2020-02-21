@@ -2,7 +2,7 @@ import Foundation
 
 public enum ClientToServerActionType: String {
     case fullClientUpdate
-    case stateUpdate
+    case partialClientUpdate
 }
 
 public struct ClientToServerAction: Codable {
