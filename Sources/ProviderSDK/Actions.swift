@@ -14,6 +14,7 @@ public struct ClientToServerAction: Codable {
         self.data = data
     }
 }
+
 //struct ServerToClientAction {
 //    var type: ServerToClientActionType
 //}
