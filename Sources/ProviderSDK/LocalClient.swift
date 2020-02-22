@@ -11,7 +11,7 @@ public struct LocalClient: Codable {
     public var cpuUsage: Double?
     public var freeRAM: Int?
     
-    public init(hostName: String, userName: String, osType: String, osVersion: String, kernelType: String, kernelVersion: String, state: String, cpuUsage: Double, freeRAM: Int) {
+    public init(hostName: String?, userName: String?, osType: String?, osVersion: String?, kernelType: String?, kernelVersion: String?, state: String?, cpuUsage: Double?, freeRAM: Int?) {
         self.hostName = hostName
         self.userName = userName
         self.osType = osType
