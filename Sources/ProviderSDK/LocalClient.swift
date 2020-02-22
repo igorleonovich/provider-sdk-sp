@@ -23,9 +23,6 @@ public struct LocalClient: Codable {
         self.freeRAM = freeRAM
     }
     
-    public init(state: String, cpuUsage: Double, freeRAM: Int) {
-        self.state = state
-        self.cpuUsage = cpuUsage
-        self.freeRAM = freeRAM
+    public init() {
     }
 }
