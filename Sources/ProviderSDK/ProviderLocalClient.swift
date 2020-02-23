@@ -1,6 +1,6 @@
 import Foundation
 
-public struct LocalClient: Codable {
+public struct ProviderLocalClient: Codable {
     public var hostName: String?
     public var userName: String?
     public var osType: String?

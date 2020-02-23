@@ -1,6 +1,6 @@
 import Foundation
 
-public enum ClientState: String {
+public enum ProviderClientState: String {
     case unknown
     case unavailable
     case available
