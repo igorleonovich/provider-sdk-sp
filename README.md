@@ -1,3 +1,3 @@
 # ProviderSDK
 
-A description of this package.
+Host provider SDK (concept)
