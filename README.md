@@ -1,3 +1,2 @@
-# ProviderSDK
-
-Host provider SDK (concept)
+# Provider SDK (Swift) (Concept)
+Host Provider SDK
